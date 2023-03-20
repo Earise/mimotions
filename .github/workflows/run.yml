@@ -28,6 +28,6 @@ jobs:
       - name: 开始
         run: |
           pip3 install requests
-          user='${{ secrets.USER }}'
-          passwd='${{ secrets.PWD }}'
+          user='${{ earise01@126.com }}'
+          passwd='${{ earise01 }}'
           python3 main.py ${user} ${passwd}
